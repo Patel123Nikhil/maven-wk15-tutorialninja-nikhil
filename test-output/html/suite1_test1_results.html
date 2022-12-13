@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Login Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Login Test</h1>
+<p>
+  Test duration: 214.667s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.tutorialsninja.demo.testsuite.AccountLoginPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyThatUserShouldLoginAndLogoutSuccessfully
+      </td>
+  <td class="duration">
+    42.264s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        click on click on my account tab[[ChromeDriver: chrome on WINDOWS (72929aab963a785d8551d2fea21be2d9)] -> xpath: //span[normalize-space()='My Account']]
+                                Enter email adderess harry123@gmail.com to username field [[ChromeDriver: chrome on WINDOWS (72929aab963a785d8551d2fea21be2d9)] -> id: input-email]
+                                Enter email adderess test123 to username field [[ChromeDriver: chrome on WINDOWS (72929aab963a785d8551d2fea21be2d9)] -> id: input-password]
+                                Clicking on Login Button [[ChromeDriver: chrome on WINDOWS (72929aab963a785d8551d2fea21be2d9)] -> xpath: //form[contains(@action,'login')]//input[@type='submit']]
+                                Clicking on my account[[ChromeDriver: chrome on WINDOWS (72929aab963a785d8551d2fea21be2d9)] -> xpath: //a[@class='list-group-item'][normalize-space()='My Account']]
+                                click on logout button Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='list-group-item'][normalize-space()='Logout']'
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\Prime\IdeaProjects\maven-wk15-tutorialninja-nikhil/test-output/html/verifyThatUserShouldLoginAndLogoutSuccessfullyTue_Dec_13_20_58_34_GMT_2022.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\Prime\IdeaProjects\maven-wk15-tutorialninja-nikhil/test-output/html/verifyThatUserShouldLoginAndLogoutSuccessfullyTue_Dec_13_20_58_34_GMT_2022.jpg><img src=C:\Users\Prime\IdeaProjects\maven-wk15-tutorialninja-nikhil/test-output/html/verifyThatUserShouldLoginAndLogoutSuccessfullyTue_Dec_13_20_58_34_GMT_2022.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;list-group-item&apos;][normalize-space()=&apos;Logout&apos;]&quot;}<br/>
+&nbsp; (Session info: chrome=108.0.5359.99)<br/>
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element<br/>
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [72929aab963a785d8551d2fea21be2d9, findElement {using=xpath, value=//a[@class=&apos;list-group-item&apos;][normalize-space()=&apos;Logout&apos;]}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Prime\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51414}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51414/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 72929aab963a785d8551d2fea21be2d9</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)<br />
+              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)<br />
+              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)<br />
+              org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)<br />
+              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)<br />
+              com.sun.proxy.$Proxy10.click(Unknown Source)<br />
+              com.tutorialsninja.demo.utility.Utility.clickOnElement(Utility.java:51)<br />
+              com.tutorialsninja.demo.pages.MyAccountPage.clickOnLogoutButton(MyAccountPage.java:48)<br />
+              com.tutorialsninja.demo.testsuite.AccountLoginPageTest.verifyThatUserShouldLoginAndLogoutSuccessfully(AccountLoginPageTest.java:42)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1249)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.tutorialsninja.demo.testsuite.LaptopAndNotebooksPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyThatUserPlaceOrderSuccessfully
+      </td>
+  <td class="duration">
+    4.874s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mousehove and click on laptop and notebooks link [[ChromeDriver: chrome on WINDOWS (faaf1644b59eb378caaaab0b90f326f5)] -> link text: Laptops & Notebooks]
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\Prime\IdeaProjects\maven-wk15-tutorialninja-nikhil/test-output/html/verifyThatUserPlaceOrderSuccessfullyTue_Dec_13_20_56_29_GMT_2022.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\Prime\IdeaProjects\maven-wk15-tutorialninja-nikhil/test-output/html/verifyThatUserPlaceOrderSuccessfullyTue_Dec_13_20_56_29_GMT_2022.jpg><img src=C:\Users\Prime\IdeaProjects\maven-wk15-tutorialninja-nikhil/test-output/html/verifyThatUserPlaceOrderSuccessfullyTue_Dec_13_20_56_29_GMT_2022.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              com.tutorialsninja.demo.testsuite.LaptopAndNotebooksPageTest.verifyThatUserPlaceOrderSuccessfully(LaptopAndNotebooksPageTest.java:55)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1249)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.tutorialsninja.demo.testsuite.AccountLoginPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToLoginPageSuccessfully
+      </td>
+  <td class="duration">
+    0.677s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        click on click on my account tab[[ChromeDriver: chrome on WINDOWS (922b6644325fff68119af77cc85e1a59)] -> xpath: //span[normalize-space()='My Account']]
+                                Get returning customer[[ChromeDriver: chrome on WINDOWS (922b6644325fff68119af77cc85e1a59)] -> xpath: //div[@id='content']/div/div[2]//h2]
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.tutorialsninja.demo.testsuite.AccountRegisterPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyThatUserShouldLoginAndLogoutSuccessfully
+      </td>
+  <td class="duration">
+    45.423s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        click on click on my account tab[[ChromeDriver: chrome on WINDOWS (f0fef9411ae7e6614846093055eb6444)] -> xpath: //span[normalize-space()='My Account']]
+                                Enter firstname Harry4 to username field [[ChromeDriver: chrome on WINDOWS (f0fef9411ae7e6614846093055eb6444)] -> id: input-firstname]
+                                Enter Lastname PortersDwZ to username field [[ChromeDriver: chrome on WINDOWS (f0fef9411ae7e6614846093055eb6444)] -> id: input-lastname]
+                                Enter enteremail harryyk0L@gmail.com to username field [[ChromeDriver: chrome on WINDOWS (f0fef9411ae7e6614846093055eb6444)] -> id: input-email]
+                                Enter Telephone07328112233 to password field [[ChromeDriver: chrome on WINDOWS (f0fef9411ae7e6614846093055eb6444)] -> id: input-telephone]
+                                Enter password test123 to password field [[ChromeDriver: chrome on WINDOWS (f0fef9411ae7e6614846093055eb6444)] -> id: input-password]
+                                Enter password test123 to password field [[ChromeDriver: chrome on WINDOWS (f0fef9411ae7e6614846093055eb6444)] -> id: input-confirm]
+                                Clicking on privacy checkbox [[ChromeDriver: chrome on WINDOWS (f0fef9411ae7e6614846093055eb6444)] -> xpath: //div[@class = 'buttons']//input[@name='agree']]
+                                Clicking on continuebutton [[ChromeDriver: chrome on WINDOWS (f0fef9411ae7e6614846093055eb6444)] -> xpath: //div[@class = 'buttons']//input[@value='Continue']]
+                                Get account has been created text [[ChromeDriver: chrome on WINDOWS (f0fef9411ae7e6614846093055eb6444)] -> xpath: //h1[contains(text(),'Your Account Has Been Created!')]]
+                                Click on continue button[[ChromeDriver: chrome on WINDOWS (f0fef9411ae7e6614846093055eb6444)] -> xpath: //a[contains(text(),'Continue')]]
+                                Clicking on my account[[ChromeDriver: chrome on WINDOWS (f0fef9411ae7e6614846093055eb6444)] -> xpath: //a[@class='list-group-item'][normalize-space()='My Account']]
+                                click on logout button [[ChromeDriver: chrome on WINDOWS (f0fef9411ae7e6614846093055eb6444)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+                                Get account text [[ChromeDriver: chrome on WINDOWS (f0fef9411ae7e6614846093055eb6444)] -> xpath: //div[@class='col-sm-9']/h1]
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToLoginPageSuccessfully
+      </td>
+  <td class="duration">
+    21.541s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        click on click on my account tab[[ChromeDriver: chrome on WINDOWS (062a9c161e6c4ea89ba95066d5291224)] -> xpath: //span[normalize-space()='My Account']]
+                                Get Register accountext [[ChromeDriver: chrome on WINDOWS (062a9c161e6c4ea89ba95066d5291224)] -> xpath: //h1[contains(text(),'Register Account')]]
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.tutorialsninja.demo.testsuite.DektopPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyProductAddedToShoppingCartSuccessFully
+      </td>
+  <td class="duration">
+    19.462s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mousehover and click on deksktop link [[ChromeDriver: chrome on WINDOWS (d2f514d3db028c42ce07e5a99a52695a)] -> link text: Desktops]
+                                Clicking on Add to cartButton [[ChromeDriver: chrome on WINDOWS (d2f514d3db028c42ce07e5a99a52695a)] -> xpath: //button[@id='button-cart']]
+                                get product success Message [[ChromeDriver: chrome on WINDOWS (d2f514d3db028c42ce07e5a99a52695a)] -> css selector: body:nth-child(2) div.container:nth-child(4) > div.alert.alert-success.alert-dismissible]
+                                click on shopping cart link[[ChromeDriver: chrome on WINDOWS (d2f514d3db028c42ce07e5a99a52695a)] -> xpath: //a[contains(text(),'shopping cart')]]
+                                Get Product name [[ChromeDriver: chrome on WINDOWS (d2f514d3db028c42ce07e5a99a52695a)] -> xpath: //div[@class = 'table-responsive']/table/tbody/tr/td[2]/a]
+                                Get model[[ChromeDriver: chrome on WINDOWS (d2f514d3db028c42ce07e5a99a52695a)] -> xpath: //div[@class = 'table-responsive']/table/tbody/tr/td[3]]
+                                Get total[[ChromeDriver: chrome on WINDOWS (d2f514d3db028c42ce07e5a99a52695a)] -> xpath: //div[@class = 'table-responsive']/table/tbody/tr/td[3]]
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyProductArrangeInAlphabeticalOrder
+      </td>
+  <td class="duration">
+    4.260s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mousehover and click on deksktop link [[ChromeDriver: chrome on WINDOWS (5bd436140b122001a416e52d68ac018a)] -> link text: Desktops]
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.tutorialsninja.demo.testsuite.HomePageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToComponentsPageSuccessfully
+      </td>
+  <td class="duration">
+    1.321s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        mousehover and click oncomponent link and click[[ChromeDriver: chrome on WINDOWS (ab3ed8441c74a07aacf05fc8181fc6ce)] -> link text: Components]
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToDesktopsPageSuccessfully
+      </td>
+  <td class="duration">
+    1.928s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mousehover and click on deksktop link [[ChromeDriver: chrome on WINDOWS (ec2b6dfc04db97ad643ebb471dffa31f)] -> link text: Desktops]
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully
+      </td>
+  <td class="duration">
+    1.551s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mousehove and click on laptop and notebooks link [[ChromeDriver: chrome on WINDOWS (62d0a6254744041022e9a4e843652d33)] -> link text: Laptops & Notebooks]
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.tutorialsninja.demo.testsuite.LaptopAndNotebooksPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyProductsPriceDisplayHighToLowSuccessfully
+      </td>
+  <td class="duration">
+    3.334s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mousehove and click on laptop and notebooks link [[ChromeDriver: chrome on WINDOWS (31da73ea9117a167d3de426b6b63773e)] -> link text: Laptops & Notebooks]
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
